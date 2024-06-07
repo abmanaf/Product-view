@@ -24,7 +24,7 @@ function App() {
           ><span className="list-price">$169.99</span>
         </div>
         <button>
-          <img className="cart-icon" src="images/icon-cart.svg" alt="" />Add to Cart
+          <img className="cart-icon" src="images/icon-cart.svg" alt="cartIcon" />Add to Cart
         </button>
         </main>
       </div>
