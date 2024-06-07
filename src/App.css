@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-fraunces);
+}
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+  --deep-aquamarine: hsl(134.12, 50%, 15.64%);
+  --font-fraunces: "Fraunces", serif;
+  --font-Montserrat: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Cream);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 21.438rem;
+  height: 38.188rem;
+  background-color: var(--White);
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+
+.mobile-image {
+  max-width: 21.438rem;
+  min-height: 15rem;
+}
+
+.desktop-image {
+  display: none;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.product-name {
+  font-family: var(--font-Montserrat);
+  text-transform: uppercase;
+  color: var(--dark-grayish-blue);
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: var(--very-dark-blue);
+  margin-top: 0.5rem;
+}
+
+p {
+  font-family: var(--font-Montserrat);
+  color: var(--dark-grayish-blue);
+  font-size: 0.875rem;
+  line-height: 1.438rem;
+  font-weight: 500;
+  margin-top: 0.938rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 18.438rem;
+  min-height: 3rem;
+  background-color: var(--dark-cyan);
+  border: none;
+  color: var(--White);
+  font-size: 0.875rem;
+  line-height: auto;
+  font-weight: 700;
+  font-family: var(--font-Montserrat);
+  border-radius: 0.625rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--deep-aquamarine);
+}
+
+.cart-icon {
+  height: 1rem;
+  width: 0.899rem;
+  margin-right: 0.625rem;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.188rem;
+}
+
+.sale-price {
+  color: var(--dark-cyan);
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-right: 1.125rem;
+}
+
+.list-price {
+  font-size: 0.8rem;
+  color: var(--dark-grayish-blue);
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 37.5rem;
+    height: 28rem;
+    flex-direction: row;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  .desktop-image {
+    display: block;
+    max-width: 18.75rem;
+    height: 28.125;
+  }
+
+  main {
+    padding: 1.813rem 2.188rem 1.875rem 1.938rem;
+  }
+
+  button {
+    min-width: 14.75rem;
+  }
+
+  .prices {
+    margin-bottom: 3.625rem;
+  }
+
+  h1 {
+    margin-top: 1rem;
+  }
+
+  p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .prices {
+    margin-bottom: 1.875rem;
+  }
+}
