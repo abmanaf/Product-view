@@ -141,15 +141,15 @@ button:hover {
   }
 
   main {
-    padding: 1.813rem 2.188rem 1.875rem 1.938rem;
+    padding: 2rem;
   }
 
   button {
-    min-width: 14.75rem;
+    min-width: 15rem;
   }
 
   .prices {
-    margin-bottom: 3.625rem;
+    margin-bottom: 3.7rem;
   }
 
   h1 {
@@ -158,10 +158,10 @@ button:hover {
 
   p {
     margin-top: 1.5rem;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.8rem;
   }
 
   .prices {
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.9rem;
   }
 }
