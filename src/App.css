@@ -108,7 +108,7 @@ button:hover {
   margin-bottom: 1.188rem;
 }
 
-.sale-price {
+.current-price {
   color: var(--dark-cyan);
   font-size: 2rem;
   line-height: 2rem;
