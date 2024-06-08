@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import laptopView from '/images/image-product-desktop.jpg'
 import mobileView from '/images/image-product-mobile.jpg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
