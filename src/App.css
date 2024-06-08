@@ -79,16 +79,16 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-width: 18.438rem;
+  min-width: 18rem;
   min-height: 3rem;
   background-color: var(--dark-cyan);
   border: none;
   color: var(--White);
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   line-height: auto;
   font-weight: 700;
   font-family: var(--font-Montserrat);
-  border-radius: 0.625rem;
+  border-radius: 0.6rem;
 }
 
 button:hover {
