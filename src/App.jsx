@@ -22,7 +22,7 @@ function App() {
         </p>
         <div className="prices">
           <span className="current-price">$149.99</span
-          ><span className="list-price">$169.99</span>
+          ><span className="previous-price">$169.99</span>
         </div>
         <button>
           <img className="cart-icon" src="images/icon-cart.svg" alt="cartIcon" />Add to Cart
