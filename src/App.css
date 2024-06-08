@@ -116,7 +116,7 @@ button:hover {
   margin-right: 1.125rem;
 }
 
-.list-price {
+.previous-price {
   font-size: 0.8rem;
   color: var(--dark-grayish-blue);
   font-weight: 500;
