@@ -135,8 +135,7 @@ button:hover {
 
   .desktop-image {
     display: block;
-    max-width: 18.75rem;
-    height: 28.125;
+    max-width: 19rem;
   }
 
   main {
