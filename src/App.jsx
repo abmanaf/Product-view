@@ -21,7 +21,7 @@ function App() {
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
         <div className="prices">
-          <span className="sale-price">$149.99</span
+          <span className="current-price">$149.99</span
           ><span className="list-price">$169.99</span>
         </div>
         <button>
