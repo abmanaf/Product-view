@@ -99,13 +99,13 @@ button:hover {
 .cart-icon {
   height: 1rem;
   width: 0.9rem;
-  margin-right: 0.625rem;
+  margin-right: 0.6rem;
 }
 
 .prices {
   display: flex;
   align-items: center;
-  margin-bottom: 1.188rem;
+  margin-bottom: 1rem;
 }
 
 .current-price {
