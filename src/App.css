@@ -89,10 +89,10 @@ button {
   font-weight: 700;
   font-family: var(--font-Montserrat);
   border-radius: 0.6rem;
+  cursor: pointer;
 }
 
 button:hover {
-  cursor: pointer;
   background-color: var(--deep-aquamarine);
 }
 
