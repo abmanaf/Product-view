@@ -27,15 +27,15 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 21.438rem;
-  height: 38.188rem;
+  max-width: 21rem;
+  height: 38rem;
   background-color: var(--White);
   border-radius: 10px 10px 10px 10px;
   overflow: hidden;
 }
 
 .mobile-image {
-  max-width: 21.438rem;
+  max-width: 21rem;
   min-height: 15rem;
 }
 
